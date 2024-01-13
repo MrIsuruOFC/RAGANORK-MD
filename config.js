@@ -63,7 +63,7 @@ module.exports = {
     TAKE_KEY: process.env.TAKE_KEY || '',
     MODE: process.env.MODE || 'public',
     WARN: process.env.WARN || '4',
-    ANTILINK_WARN: process.env.ANTILINK_WARN || '',
+    ANTILINK_WARN: process.env.ANTILINK_WARN || 'jid,pm',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY || '',
